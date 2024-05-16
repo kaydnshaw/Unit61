@@ -3,7 +3,6 @@
     error_reporting(0);
     include 'connect.php';
     include 'header.php';
-    
     if(isset($_POST['submit'])){
         $applyrole = $_POST['role'];
         $applyname = $_POST['name'];
