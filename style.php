@@ -22,9 +22,12 @@
 			color: black;
 			position: relative;
 			top: 85px;
-			left: 456px;
+			left: 448px;
 			font-weight: 600;
-			
+			padding: 15px;
+			background-color: #d3d3d3;
+			border-radius: 18px;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
 		}
 		.logoimg{
 			width: 225px;
@@ -324,5 +327,20 @@
             position: relative;
             top: 26.5px;
 			left: 50px;
+		}
+		.profilebio{
+			color: black;
+			font-size: 16px;
+			font-family: arial;
+			font-weight: 550;
+			position: relative;
+			right: 42.5%;
+			float: right;
+			top: 340px;
+			padding: 15px;
+			background-color: #d3d3d3;
+			border-radius: 18px;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+
 		}
 	</style>

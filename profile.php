@@ -124,8 +124,9 @@
     </script>
 	<div id="profilecontainer" class="profilecontainer">
 		<div class="profilenamecontainer">
-			<img src="images/logo.jpg" class="logoimg">
+			<img <?php if($_GET['pid'] == "1"){ ?> src="images/logo.jpg" <?php }elseif($_GET['pid'] == "2"){ ?> src="images/emp1.jpg" <?php }else{ ?> src="images/emp2.jpg" <?php } ?>class="logoimg">
 			<a class="profilename"><?php echo $aname; ?></a>
+			<a class="profilebio"><?php echo $abio; ?></a>
 			<?php 
 				if($_GET['pid'] == "1"){
 					?>
