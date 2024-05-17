@@ -297,7 +297,7 @@
 			
 			left: 24.5%;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             color: black;
 		}
 		.successtxt{

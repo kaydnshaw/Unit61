@@ -1,37 +1,40 @@
 	<style type="text/css">
 		body{
-			overflow-y: hidden;
 		}
 		.profilecontainer{
-			width :80%;
-			height:295px;
+			width :100%;
+			height:335px;
 			background-color: white;
 			position: relative;
 			top: 60px;
 			float: left;
-			left: 9.5%;
+			left: 0%;
 			border-radius: 6px;
 			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
 		}
 		.profilenamecontainer{
 			position: relative;
+			width:100%;
 		}
 		.profilename{
+			padding: 5px;
 			font-family: arial;
 			font-size: 22px;
 			color: black;
 			position: relative;
-			top: 85px;
-			left: 456px;
+			top: 5px;
+			left: 406px;
 			font-weight: 600;
-			
+			background-color: #d3d3d3;
+			border-radius: 18px;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
 		}
 		.logoimg{
 			width: 225px;
 			height: 225px;
 			border-radius: 360px;
 			position: relative;
-			left: 15%;
+			left: 20%;
 			top:0px;
 			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
 			object-fit: cover;
@@ -234,14 +237,14 @@
             width: 65%;
             padding: 10px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;  
         }
         .name{
             width: 65%;
             padding: 10px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;
 			position: relative; 
 			top:20px;
@@ -252,7 +255,7 @@
             position: relative;
             top:40px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;  
         }
         .address{
@@ -261,7 +264,7 @@
             position: relative;
             top:60px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;  
         }
         .phonenumber{
@@ -270,7 +273,7 @@
             position: relative;
             top:80px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;  
         }
         .message{
@@ -279,7 +282,7 @@
             position: relative;
             top:100px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;  
         }
         .submit{
@@ -288,7 +291,7 @@
             position: relative;
             top:120px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;
         }
 		.success{
@@ -300,7 +303,7 @@
 			
 			left: 24.5%;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             color: black;
 		}
 		.successtxt{
@@ -330,5 +333,142 @@
             position: relative;
             top: 26.5px;
 			left: 50px;
+		}
+		.profilebio{
+			color: black;
+			font-size: 16px;
+			font-family: arial;
+			font-weight: 550;
+			position: relative;
+			right: 31.2%;
+			float: right;
+			top: 31px;
+			padding: 15px;
+			background-color: #d3d3d3;
+			border-radius: 18px;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
+
+		}
+		.empprofile{
+			text-decoration: none;
+			color: black;
+		}
+		.roleisnull{
+			width :50%;
+			height:20px;
+			background-color: white;
+			position: relative;
+			top: 92px;
+			float: right;
+			left: -25.5%;
+			border-radius: 6px;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
+            color: black;
+		}
+		.coursesdiv{
+			width :50%;
+			height:605px;
+			background-color: white;
+			position: relative;
+			top: 608px;
+			float: left;
+			left: -25.5%;
+			border-radius: 6px;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
+            color: black;
+		}
+		html {
+    		overflow: scroll;
+    		overflow-x: hidden;
+		}
+		::-webkit-scrollbar {
+    		width: 0;  /* Remove scrollbar space */
+    		background: transparent;  /* Optional: just make scrollbar invisible */
+		}
+		/* Optional: show position indicator in red */
+		::-webkit-scrollbar-thumb {
+    		background: #FF0000;
+		}
+		.coursestxt{
+			position: relative;
+			font-family: arial;
+		}
+		.freecodecamp{
+			position: relative;
+			font-family: arial;
+			top: -20px;
+			width: 60%;
+			text-align: left;
+			left: 10%;
+		}
+		.careerfoundry{
+			position: relative;
+			top: 0px;
+			width: 60%;
+			font-family: arial;
+			text-align: left;
+			left: 10%;
+		}
+		.coursera{
+			position: relative;
+			top: 0px;
+			width: 60%;
+			font-family: arial;
+			text-align: left;
+			left: 10%;
+		}
+		.fcclogo{
+			width: 20%;
+			height: 20%;
+			object-fit: cover;
+			position: relative;
+			right: 35%;
+			top: 14%;
+		}
+		.cflogo{
+			width: 20%;
+			height: 20%;
+			object-fit: fit;
+			position: relative;
+			right: 35%;
+			top: 14%;
+		}
+		.cr{
+			width: 20%;
+			height: 20%;
+			object-fit: fit;
+			position: relative;
+			right: 35%;
+			top: 14%;
+		}
+		.welcomediv{
+			width :50%;
+			min-height:208px;
+			height: calc(-50vw + 795px);
+			background-color: white;
+			position: relative;
+			top: 108px;
+			float: left;
+			left: 25.5%;
+			border-radius: 6px;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
+            color: black;
+		}
+		.welcometxt{
+			position: relative;
+			top: 20px;
+			font-family: arial;
+			font-size: 24px;
+		}
+		.briefaboutusdiv{
+			width: 37vw;
+		}
+		.briefaboutustxt{
+			position: relative;
+			top: 20px;
+			font-family: arial;
+			font-size: 18px;
+			width:100%;
+			left:6vw;
 		}
 	</style>
