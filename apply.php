@@ -12,12 +12,15 @@
         $applymessage = $_POST['message'];
 
         $applysql = "INSERT INTO applications (role, name, email, address, phonenumber, message) VALUES ('".$applyrole."','".$applyname."','".$applyemail."','".$applyaddress."','".$applyphonenumber."','".$applymessage."')";
-        $applyquery = mysqli_query($connect_db, $applysql);
+        if($applyrole !== "Role - Please Select"){
+            $applyquery = mysqli_query($connect_db, $applysql);
 
-        if($applyquery === TRUE){
-            header("location: success.php");
+            if($applyquery === TRUE){
+                header("location: success.php");
+            }
+        }else{
+            header("location: apply.php?err=1");
         }
-       
     }
     include 'style.php';
 ?>
@@ -28,6 +31,13 @@
     </head>
     <body>
     <center>
+        <?php if($_GET['err'] == "1"){ ?>
+        <div class="roleisnull">
+            <a>Please select a role below</a>
+        </div>
+        <?php
+            }
+        ?>
         <div id="applydiv" class="applydiv">
             <a class="applynowtxt">Apply Now</a><br>
             <form autocomplete="off" id="applyform" method="POST" action="apply.php" class="applyform">

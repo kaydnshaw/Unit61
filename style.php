@@ -27,7 +27,7 @@
 			padding: 15px;
 			background-color: #d3d3d3;
 			border-radius: 18px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
 		}
 		.logoimg{
 			width: 225px;
@@ -36,7 +36,7 @@
 			position: relative;
 			left: 42.5%;
 			top:40px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
 			object-fit: cover;
 		}
 		.ourdevelopers{
@@ -45,10 +45,10 @@
 			font-family: arial;
 			font-size: 18px;
 			color: black;
-			border: solid thin #d3d3d3;
+			border: none;
 			border-radius: 6px;
 			padding: 5px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
 			position: relative;
 			right:65%;
 			float: right;
@@ -66,7 +66,7 @@
 			float: right;
 			top: 200px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.12);
 		}
 		.ourdevelopersdiv{
 			
@@ -171,12 +171,12 @@
 			font-family: arial;
 			font-size: 18px;
 			color: black;
-			border: solid thin #d3d3d3;
 			border-radius: 6px;
 			padding: 5px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
 			position: relative;
 			right:12.5%;
+			border: none;
 			float: right;
 			top: 350px;
 			text-decoration: none;
@@ -192,7 +192,7 @@
 			float: right;
 			top: -20px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.12);
 			color: black;
 		}
 		.aboutustxt{
@@ -212,7 +212,7 @@
 			float: left;
 			left: 24.5%;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             color: black;
         }
         .applyform{
@@ -231,14 +231,14 @@
             width: 35%;
             padding: 10px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;  
         }
         .name{
             width: 35%;
             padding: 10px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;
 			position: relative; 
 			top:20px;
@@ -249,7 +249,7 @@
             position: relative;
             top:40px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;  
         }
         .address{
@@ -258,7 +258,7 @@
             position: relative;
             top:60px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;  
         }
         .phonenumber{
@@ -267,7 +267,7 @@
             position: relative;
             top:80px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;  
         }
         .message{
@@ -276,7 +276,7 @@
             position: relative;
             top:100px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;  
         }
         .submit{
@@ -285,7 +285,7 @@
             position: relative;
             top:120px;
 			border-radius: 6px;
-			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             border: none;
         }
 		.success{
@@ -334,7 +334,7 @@
 			font-family: arial;
 			font-weight: 550;
 			position: relative;
-			right: 42.5%;
+			right: 45.2%;
 			float: right;
 			top: 340px;
 			padding: 15px;
@@ -342,5 +342,21 @@
 			border-radius: 18px;
 			box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
 
+		}
+		.empprofile{
+			text-decoration: none;
+			color: black;
+		}
+		.roleisnull{
+			width :50%;
+			height:20px;
+			background-color: white;
+			position: relative;
+			top: 92px;
+			float: right;
+			left: -25.5%;
+			border-radius: 6px;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
+            color: black;
 		}
 	</style>

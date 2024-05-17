@@ -125,8 +125,8 @@
 	<div id="profilecontainer" class="profilecontainer">
 		<div class="profilenamecontainer">
 			<img <?php if($_GET['pid'] == "1"){ ?> src="images/logo.jpg" <?php }elseif($_GET['pid'] == "2"){ ?> src="images/emp1.jpg" <?php }else{ ?> src="images/emp2.jpg" <?php } ?>class="logoimg">
-			<a class="profilename"><?php echo $aname; ?></a>
-			<a class="profilebio"><?php echo $abio; ?></a>
+			<?php if($_GET['pid'] == '2'){?> <a style="left:29%;" class="profilename"><?php echo $aname; ?></a> <?php }elseif($_GET['pid'] == '3'){?> <a style="left:30%;" class="profilename"><?php echo $aname; ?></a> <?php }elseif($_GET['pid'] == '1'){ ?> <a class="profilename"><?php echo $aname; ?></a> <?php } ?>
+			
 			<?php 
 				if($_GET['pid'] == "1"){
 					?>
@@ -135,20 +135,24 @@
 					<button id="aboutus" class="aboutus">About Us</button>
 					
 					<?php
+				}else{
+					?>
+					<a class="profilebio"><?php echo $abio; ?></a>
+					<?php
 				}
 			?>
 			<div id="ourdevelopersdivcontainer" class="ourdevelopersdivcontainer">
 				<div class="ourdevelopersdiv">
 					
 					<img src="images/emp1.jpg" id="emp1" class="emp1pic">
-					<div id="emp1name" class="emp1name">Lauren Parker</div>
+					<div id="emp1name" class="emp1name"><a class="empprofile" href="profile.php?pid=2">Lauren Parker</a></div>
 						<div id="emp1bio" class="emp1bio"><a>Role: CEO</a>
 							<br>
 							<a>Lauren plays an important role within Hot Beans Web as shes useful with her role as a CEO because she's great with strategic leadership, operational management and she's brilliant with innovation and thats what makes her an important person within Hot Beans Web
 						</div>
 					</div>
 					<img src="images/emp2.jpg" id="emp2" class="emp2pic">
-					<div id="emp2name" class="emp2name">Craig David</div>
+					<div id="emp2name" class="emp2name"><a class="empprofile" href="profile.php?pid=3">Craig David</a></div>
 						<div id="emp2bio" class="emp2bio"><a>Role: Web Developer</a>
 							<br>
 							<a>Craig David plays an important role within Hot Beans Web as he is the only person that we have hired so far and we are constantly looking for new people and Craig is the best we've had and hes had 14 years of experience within web development</a>
