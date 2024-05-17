@@ -56,6 +56,23 @@
                 <input type="submit" class="submit" id="submit" name="submit" placeholder="Submit Application"></input><br>
             </form>
         </div>
+        <div id="coursesdiv" class="coursesdiv">
+            <br>
+            <a class="coursestxt">Check out some courses on Web Development</a><br>
+            <img class="fcclogo" src="images/freecodecamplogo.jpg">
+            <div class="freecodecamp">
+                <a><a style="color: black;" href="https://www.freecodecamp.org/">FreeCodeCamp</a> offers a comprehensive curriculum covering everything from basic HTML and CSS to advanced JavaScript, data structures, and algorithms. This course also includes responsive web design, front-end libraries, data visualization, APIs, and microservices.</a><br>
+            </div>
+            <img class="cflogo" src="images/cflogo.png">
+            <div class="careerfoundry">
+                <a><a style="color: black;" href="https://careerfoundry.com/en/tutorials/web-development-for-beginners/introduction-to-web-development">CareerFoundry</a> Web Development for Beginners Course: This course provides an introduction to HTML, CSS, and JavaScript through hands-on projects. It’s a great way to build a solid foundation in web development.</a><br>
+            </div>
+            <img class="cflogo" src="images/Coursera-Logo.png">
+            <div class="coursera">
+                <a><a style="color: black;" href="https://www.coursera.org/learn/html-css-javascript-for-web-developers">Coursera’s</a> HTML, CSS, and JavaScript for Web Developers: Offered by Johns Hopkins University, this course covers the basics of web development, including how to use HTML, CSS, and JavaScript to build interactive web pages.</a>
+            </div>
+            </div><br>
+        
     </center>
     </body>
 </html>

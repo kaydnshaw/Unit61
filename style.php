@@ -1,6 +1,6 @@
 	<style type="text/css">
 		body{
-			overflow-y: hidden;
+			
 		}
 		.profilecontainer{
 			width :80%;
@@ -358,5 +358,111 @@
 			border-radius: 6px;
 			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
             color: black;
+		}
+		.coursesdiv{
+			width :50%;
+			height:605px;
+			background-color: white;
+			position: relative;
+			top: 608px;
+			float: left;
+			left: -25.5%;
+			border-radius: 6px;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
+            color: black;
+		}
+		html {
+    		overflow: scroll;
+    		overflow-x: hidden;
+		}
+		::-webkit-scrollbar {
+    		width: 0;  /* Remove scrollbar space */
+    		background: transparent;  /* Optional: just make scrollbar invisible */
+		}
+		/* Optional: show position indicator in red */
+		::-webkit-scrollbar-thumb {
+    		background: #FF0000;
+		}
+		.coursestxt{
+			position: relative;
+			font-family: arial;
+		}
+		.freecodecamp{
+			position: relative;
+			font-family: arial;
+			top: -20px;
+			width: 60%;
+			text-align: left;
+			left: 10%;
+		}
+		.careerfoundry{
+			position: relative;
+			top: 0px;
+			width: 60%;
+			font-family: arial;
+			text-align: left;
+			left: 10%;
+		}
+		.coursera{
+			position: relative;
+			top: 0px;
+			width: 60%;
+			font-family: arial;
+			text-align: left;
+			left: 10%;
+		}
+		.fcclogo{
+			width: 20%;
+			height: 20%;
+			object-fit: cover;
+			position: relative;
+			right: 35%;
+			top: 14%;
+		}
+		.cflogo{
+			width: 20%;
+			height: 20%;
+			object-fit: fit;
+			position: relative;
+			right: 35%;
+			top: 14%;
+		}
+		.cr{
+			width: 20%;
+			height: 20%;
+			object-fit: fit;
+			position: relative;
+			right: 35%;
+			top: 14%;
+		}
+		.welcomediv{
+			width :50%;
+			min-height:208px;
+			height: calc(-50vw + 675px);
+			background-color: white;
+			position: relative;
+			top: 108px;
+			float: left;
+			left: 25.5%;
+			border-radius: 6px;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
+            color: black;
+		}
+		.welcometxt{
+			position: relative;
+			top: 20px;
+			font-family: arial;
+			font-size: 24px;
+		}
+		.briefaboutusdiv{
+			width: 37vw;
+		}
+		.briefaboutustxt{
+			position: relative;
+			top: 20px;
+			font-family: arial;
+			font-size: 18px;
+			width:100%;
+			left:6vw;
 		}
 	</style>
